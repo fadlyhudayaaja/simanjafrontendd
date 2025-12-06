@@ -1,7 +1,7 @@
     /* ============================== */
     /*     LOGIKA APLIKASI KEUANGANKU */
     /* ============================== */
-    const BACKEND_URL = 'https://simanjabackend.vercel.app';
+    const BACKEND_URL = 'https://simanjabackend.vercel.app/api';
     // 📅 Tanggal & Waktu Real-Time
     function perbaruiTanggalWaktu() {
       const sekarang = new Date();
@@ -1019,4 +1019,5 @@
         // Page is visible, refresh data
         Aplikasi.mulai();
       }
+
     })
