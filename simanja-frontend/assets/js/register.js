@@ -1,4 +1,4 @@
-const BACKEND_URL = 'https://simanjabackend.vercel.app';
+const BACKEND_URL = 'https://simanjabackend.vercel.app/api/auth/register';
 document.addEventListener('DOMContentLoaded', function() {
       const registerForm = document.getElementById('registerForm');
       const passwordInput = document.getElementById('passwordInput');
@@ -142,4 +142,5 @@ document.addEventListener('DOMContentLoaded', function() {
           registerForm.dispatchEvent(new Event('submit'));
         }
       });
+
     });
